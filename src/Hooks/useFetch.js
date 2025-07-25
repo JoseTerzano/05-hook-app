@@ -61,6 +61,7 @@ export const useFetch = (url) => {
           hasError: false,
           error: null
         })
+        
 
         //manejo cache
         localCache[url] = data;
